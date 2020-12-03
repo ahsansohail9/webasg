@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'expess' });
+  res.render('index', { title: 'WebMall' });
 });
 router.get('/cart', function(req, res, next) {
   let cart = req.cookies.cart;
