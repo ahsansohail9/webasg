@@ -13,7 +13,7 @@ block content
           th Remove from Cart 
       tbody
         each item in cart
-          - total +=Number(item.prize);
+          - total +=Number(item.price);
           tr
             td=item.productname
             td=item.price
